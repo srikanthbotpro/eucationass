@@ -1,0 +1,182 @@
+.mainb
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+}
+.bimg{
+   margin-top: 50px;
+   margin-left: 50px ;
+   width:400px;
+   border-radius: 20px;
+   border-color: rgb(71, 71, 71);
+   border-width: 1px;
+   box-shadow: 1px 2px 2px rgb(190, 190, 190);
+   transition: opacity 0.15s,box-shadow 0.15s;
+}
+.bimg:hover
+{
+    cursor: pointer;
+    box-shadow: 1px 6px 6px rgb(190, 190, 190);
+}
+.tb
+{
+    margin-top:270px ;
+    margin-left:10px ;
+    width: 390px;
+    font-size:50px ;
+    font-weight: bold;
+}
+.form
+{
+    color: rgb(48, 48, 48);;
+    margin-top: 50px;
+    margin-left: 50px ;
+    margin-right: 50px;
+    width:500px;
+    height:400px; 
+    border-style: hidden; 
+    border-radius: 5px;
+    border: solid;
+    border-color: rgb(180, 180, 180);
+    border-width: 0.5px;
+    background-color: rgb(118, 188, 209);
+    transition: opacity 0.15s,box-shadow 0.15s;
+}
+.form:hover
+{
+    color:rgb(255, 255, 255) ;
+    cursor: pointer;
+    box-shadow: 6px 6px 6px rgb(255, 203, 203);
+    background-color: rgb(128, 128, 128);
+ 
+}
+.fhead
+{
+margin-top: 12px;
+margin-left:94px ;
+font-size: 30px;
+font-weight: bold;
+}
+.input
+{
+    margin-left: 30px;
+}
+.fb
+{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.ft
+{
+    width: 250px;
+    height: 40px;
+    border-width: 1px;
+    border-color: rgb(88, 88, 88);
+    border-radius: 20px;
+}
+.rb
+{
+ margin-top:20px ;
+ margin-left:180px ;
+ width: 120px;
+ height: 50px;
+ border-radius:10px;
+ border-color: rgb(88,88,88);
+ border-width: 1px;
+ font-weight: bold;
+ font-size: 18px;
+ color:rgb(48,48,48);
+ transition: opacity 0.125s,box-shadow 0.125s;
+}
+.rb:hover
+{
+    background-color:rgb(118, 188, 209) ;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 1px 2px 2px rgb(58, 58, 58)
+}
+
+.courhead{
+    background-color: rgb(118, 188, 209);
+    border: solid;
+    border-width: 1px;
+    padding: 1px;
+    width: 1430px;
+    border-radius: 20px;
+    margin-top:80px ;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold ;
+}
+.courgrid
+{
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-top: 70px;
+margin-left: 150px;
+align-items: center;
+text-align: center;
+}
+.cbox
+{
+    width: 500px;
+    height: 180px;
+    margin-bottom: 90px;
+    border-radius: 100px;
+    border-color:  rgb(118, 188, 209);
+    border: solid;
+    border-width:2px;
+    text-align: center;
+    box-shadow:0px 2px 2px  rgb(154, 154, 154);
+    transition: box-shadow  0.5s,opacity 0.5s;
+}
+.cbox:hover
+{
+box-shadow:2px 4px 4px  rgb(154, 154, 154);
+background-color:  rgb(118, 188, 209);
+.cboxh{
+    color: aliceblue;
+}
+}
+.cboxh
+{
+    margin-top: 15px;
+    margin-left:20px ;
+    font-weight:bold ;
+    font-size: 30px ;
+    color: rgb(0, 0, 0) ;
+}
+.cdef
+{
+    margin-left: 85px;
+    margin-top: 35px;
+    font-size: 20px;
+    width: 350px;
+}
+.footer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:rgb(118, 188, 209);
+    height: 120px;
+    align-items: center;
+    padding-left: 50px;
+}
+.simg
+{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.sbox
+{
+    justify-content: space-evenly;
+    margin-left: 480px;
+}

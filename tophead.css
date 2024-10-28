@@ -1,0 +1,21 @@
+.tophead
+{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    height: 20px;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    position:fixed;
+    top: 0;
+    bottom:0 ;
+    left: 0;
+    right: 0;
+}
+.tophead:hover
+{
+    cursor: pointer;
+    background-color: rgb(154, 154, 154);
+}
